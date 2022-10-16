@@ -205,6 +205,26 @@ button{
   margin:3px;
 }
 
+.nav{
+  background-color: yellow;
+  height: 70px;
+  display: flex;
+  padding: 10px;
+  /* margin-left: 30%; */
+}
+
+.nav h3{
+  padding: 10px;
+  background-color: green;
+  margin-left: 10%;
+}
+
+.nav h2{
+  font-style: italic;
+   margin-left: 25%;
+   text-decoration: underline;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
