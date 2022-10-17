@@ -47,7 +47,7 @@ function SignUp() {
          <div className="App">
       <div className='signup'>
         <h3>Sign Up to your account</h3>
-        <p>Already have an Account? <span><a href='/signin'>Sign In.</a></span></p> 
+        <p>Already have an Account? <span><a href="/login">Sign In.</a></span></p> 
         <div>
         <div>  <label>Email Address</label></div>
         <input type="email" name="email" placeholder= "Email"  onChange={handleInput} ></input>
