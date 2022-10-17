@@ -209,7 +209,7 @@ button{
   background-color: yellow;
   height: 70px;
   display: flex;
-  padding: 10px;
+  padding: 5px;
   /* margin-left: 30%; */
 }
 
@@ -234,6 +234,7 @@ button{
    margin-left: 25%;
    text-decoration: underline;
    /* margin-left: 5%; */
+   margin-right: 30%;
 }
 
 
