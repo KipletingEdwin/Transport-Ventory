@@ -11,6 +11,8 @@ function Nav() {
       <NavLink to ="/signup"><h3>SignUp</h3></NavLink>
 
       
+
+      
         {/* Nav */}
         </div>
   )

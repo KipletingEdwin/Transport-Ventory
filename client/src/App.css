@@ -225,7 +225,7 @@ button{
 }
 
 .nav a.active{
-  background-color: black;
+  background-color: rgb(45, 178, 176);
   color: white;
 }
 
