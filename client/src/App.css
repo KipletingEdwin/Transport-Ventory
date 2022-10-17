@@ -215,9 +215,18 @@ button{
 
 .nav h3{
   padding: 10px;
-  background-color: green;
+  /* background-color: green; */
   margin-left: 10%;
    /* margin-left: 5%; */
+}
+
+.nav h3:hover{
+  color: red;
+}
+
+.nav a.active{
+  background-color: black;
+  color: white;
 }
 
 .nav h2{
