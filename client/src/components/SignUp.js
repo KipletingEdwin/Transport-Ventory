@@ -11,7 +11,7 @@ function SignUp() {
     console.log(loggedUser)
   }
 
-  function onSubmit(e){
+  function handleSubmit(e){
     e.preventDefault()
     const myUser = {
       email:"",
@@ -56,7 +56,7 @@ function SignUp() {
         <div>  <label>Password</label></div>
         <input type="text" name="password" placeholder= "Password"  onChange={handleInput} ></input>
         </div> 
-        <button onClick={onSubmit} >Sign Up</button>
+        <button onSubmit={handleSubmit} >Sign Up</button>
       </div>
     </div>
 
