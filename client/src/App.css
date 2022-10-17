@@ -167,8 +167,10 @@ button{
 
 .final img{
   background-color: orangered;
-  height: 120px;
-  width: auto;
+  /* height: 120px; */
+  /* width: auto; */
+  width: 65%;
+  height: auto;
 } 
 .final h3{
   font-style: italic;
@@ -202,7 +204,9 @@ button{
 .add{
   background-color: yellow;
   height: 190px;
-  width: 40%;
+  width: 32%;
+  border-radius: 5px;
+  margin: 8px;
   
 }
 
@@ -250,6 +254,15 @@ button{
    text-decoration: underline;
    /* margin-left: 5%; */
    margin-right: 30%;
+}
+
+.barnav{
+  background-color: yellow;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  /* display: inline-block; */
+ 
 }
 
 

@@ -23,9 +23,11 @@ import NewForm from './NewForm';
     <> <div className='home'>
             <div className='logged'> <h3>Logged in as: {currentUser.email}  <button onClick={handleLogout} >Logout</button> </h3> </div>
             <div className='add' ><NewForm currentUser={currentUser} /></div>
-           <div> <Navbar/></div>
+            <div className='barnav' > 
+               <Navbar/>
+             </div>
               </div>
-             </>
+              </>
  ) ;
    
 
