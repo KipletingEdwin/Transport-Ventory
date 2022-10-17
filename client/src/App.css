@@ -2,6 +2,7 @@
   text-align: center;
   background-color: green;
   height: 1000px;
+  /* border-radius: 20px; */
 
 }
 
@@ -150,12 +151,18 @@ button{
 .home{
   background-color:purple;
   height: 3450px;
-  margin: 10px;
+  margin: 5px;
   border: 2px solid black;
+  border-radius: 10px;
+  /* display: flex; */
 }
 
 .final{
-  border: 1px solid black;
+  border: 2px solid black;
+  width: 30%;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #622929;
 }
 
 .final img{
@@ -163,6 +170,10 @@ button{
   height: 120px;
   width: auto;
 } 
+.final h3{
+  font-style: italic;
+  text-decoration: underline;
+}
 
 
 .logged{
@@ -179,6 +190,7 @@ button{
   height: 3500px;
   border: 2px solid black;
   margin: 5px;
+  border-radius: 20px;
   /* width: 40%; */
 }
 
