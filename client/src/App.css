@@ -217,12 +217,14 @@ button{
   padding: 10px;
   background-color: green;
   margin-left: 10%;
+   /* margin-left: 5%; */
 }
 
 .nav h2{
   font-style: italic;
    margin-left: 25%;
    text-decoration: underline;
+   /* margin-left: 5%; */
 }
 
 
